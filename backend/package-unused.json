@@ -1,0 +1,36 @@
+{
+  "name": "kianify",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build:shopify_backend": "webpack --watch --mode=development",
+    "run:shopify_backend": "nodemon --inspect ./build/shopifyBackend.bundle.js"
+  },
+  "dependencies": {
+    "@shopify/koa-shopify-auth": "^3.1.53",
+    "@shopify/koa-shopify-graphql-proxy": "^3.2.4",
+    "isomorphic-fetch": "^2.2.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.12.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-router": "^7.4.0",
+    "@types/koa-session": "^5.10.1",
+    "@types/node": "^10.12.24",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.4",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^0.23.1",
+    "ts-jest": "^23.10.5",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.2",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
