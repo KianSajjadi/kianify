@@ -1,2 +1,0 @@
-# kianify
-shopify app
