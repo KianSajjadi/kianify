@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    shopifyBackend: './shopify_backend/index.ts',
+    shopifyBackend: './server.ts',
   },
   target: 'node',
   output: {
